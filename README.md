@@ -1,1 +1,1 @@
-# Servo-Control-Panel
+# Servo Control Panel
