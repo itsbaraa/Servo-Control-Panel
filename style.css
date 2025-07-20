@@ -1,0 +1,176 @@
+body { 
+    font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', Arial, sans-serif; 
+    margin: 20px; 
+    background-color: #f0f2f5; 
+    color: #333; 
+}
+
+.container { 
+    max-width: 900px; 
+    margin: auto; 
+    background: #ffffff; 
+    padding: 25px; 
+    border-radius: 8px; 
+    border: 1px solid #e1e1e1;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05); 
+}
+
+h1, h2 { 
+    color: #222; 
+    border-bottom: 2px solid #e9ecef; 
+    padding-bottom: 10px; 
+}
+
+form { 
+    margin-bottom: 30px; 
+}
+
+.sliders-container { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 25px; 
+    margin-bottom: 20px; 
+}
+
+.slider-group { 
+    padding: 20px; 
+    border: 1px solid #e1e1e1; 
+    border-radius: 5px; 
+    background-color: #f9f9f9; 
+}
+
+label { 
+    font-weight: 600; 
+    margin-bottom: 10px; 
+    display: block; 
+}
+
+input[type="range"] { 
+    width: 100%; 
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 8px;
+    background: #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #0078d4;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #0078d4;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider-value { 
+    font-size: 1.2em; 
+    color: #0078d4; 
+    font-weight: bold; 
+    text-align: center; 
+}
+
+.button-group { 
+    display: flex; 
+    gap: 10px; 
+    margin-top: 20px; 
+}
+
+button, .btn { 
+    background-color: #0078d4; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    font-weight: 400;
+    text-decoration: none; 
+    display: inline-block; 
+    text-align: center; 
+    transition: background-color 0.2s ease-in-out;
+}
+
+button:hover, .btn:hover { 
+    background-color: #005a9e; 
+}
+
+button[name="reset"] { 
+    background-color: #ffb900; 
+    color: #212529; 
+}
+
+button[name="reset"]:hover { 
+    background-color: #e0a800; 
+}
+
+button[name="save_position"] { 
+    background-color: #107c10; 
+}
+
+button[name="save_position"]:hover { 
+    background-color: #0e660e; 
+}
+
+.feedback { 
+    padding: 15px; 
+    margin-bottom: 20px; 
+    border-radius: 5px; 
+    color: #3c763d; 
+    background-color: #dff0d8; 
+    border: 1px solid #d6e9c6; 
+}
+
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 20px; 
+}
+
+th, td { 
+    border: 1px solid #e9ecef; 
+    padding: 12px; 
+    text-align: center; 
+}
+
+th { 
+    background-color: #f8f9fa; 
+    font-weight: 600;
+}
+
+tr:nth-child(even) { 
+    background-color: #fdfdfd; 
+}
+
+.action-cell { 
+    display: flex; 
+    justify-content: center; 
+    gap: 8px; 
+}
+
+.btn.load { 
+    background-color: #00b7c3; 
+}
+
+.btn.load:hover { 
+    background-color: #009aa3; 
+}
+
+.btn.remove { 
+    background-color: #d92c2c; 
+}
+
+.btn.remove:hover { 
+    background-color: #b82424; 
+}
