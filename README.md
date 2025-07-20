@@ -1,4 +1,4 @@
-# Servo Motor Control Panel
+# Servo Motors Control Panel
 
 This project provides a web-based interface to control up to four servo motors. It allows you to set the angle of each servo, save the positions to a database, and load them back. The interface is designed to be simple and intuitive.
 
